@@ -1,6 +1,5 @@
-Programming language for finite group theory
+Array language for math
 
-WIP, but sort of follows https://github.com/AlexDikelsky/jmod, without
-implicit maps, but with records and hopefully defining groups
-at runtime. Hopefully will allow
-simplifying expressions given a few relations.
+WIP, but hopefully will include some of the core BQN features plus modular arithmetic, and
+a way to pattern match on a number mod n, plus exhaustive pattern guarantees.
+Will use Lisp syntax for now, but only monads or dyads.
